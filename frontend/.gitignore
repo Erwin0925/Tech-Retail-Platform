@@ -7,10 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
 dist
 dist-ssr
 *.local
+
+# Ignore all files in .vite directory inside node_modules
+node_modules/.vite/deps/*
+node_modules/.vite/deps/_metadata.json
 
 # Editor directories and files
 .vscode/*
