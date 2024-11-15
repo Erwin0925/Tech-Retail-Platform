@@ -15,6 +15,7 @@ dist-ssr
 
 # Ignore all files in .vite directory inside node_modules
 node_modules/.vite/deps/*
+node_modules/.vite/deps/
 node_modules/.vite/deps/_metadata.json
 
 # Editor directories and files
